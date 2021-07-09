@@ -19,6 +19,7 @@
         "mockery/mockery": "^1.4.2",
         "nunomaduro/collision": "^5.0",
         "phpunit/phpunit": "^9.3.3"
+         "ext-mbstring": "*"
     },
     "autoload": {
         "psr-4": {
@@ -57,7 +58,5 @@
     "minimum-stability": "dev",
     "prefer-stable": true
     
-    "require": {
-    "ext-mbstring": "*"
-    }
+   
 }
